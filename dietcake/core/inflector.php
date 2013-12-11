@@ -8,15 +8,6 @@ class Inflector
 
     public static function underscore($str)
     {
-        /* [A-Z]+ と [A-Z][a-z]* を単語とみなす。
-         * つまり、単語の境界は
-         *     [a-z][A-Z]
-         *          ^ココ
-         * または
-         *     [A-Z][A-Z][a-z]
-         *          ^ココ
-         * となる。
-         */
-        return strtolower(preg_replace('/([a-z]+(?=[A-Z])|[A-Z]+(?=[A-Z][a-z]))/', '\\1_', $str));
+        return strtolower(preg_replace('/(?<=\\w)([A-Z]+)/', '_\\1', $str));
     }
 }

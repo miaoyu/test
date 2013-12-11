@@ -1,0 +1,3 @@
+[Tue Dec 10 15:55:09 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app/webroot/favicon.ico, referer: http://testboard.dev/
+[Tue Dec 10 15:55:39 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app/webroot/favicon.ico, referer: http://testboard.dev/
+[Wed Dec 11 11:29:58 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app/webroot/favicon.ico
