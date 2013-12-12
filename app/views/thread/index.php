@@ -1,6 +1,6 @@
 <h1>Board Threads</h1>
-
-<table border="1" align="left" width="800" >
+<div>
+<table border="1" width="800" >
     <?php foreach($threads as $v): ?>
         <tr>
             <th>
@@ -9,5 +9,6 @@
         <tr>
     <?php endforeach ?>
 </table>
+</div>
 
-<input type="button" onclick="location.href='<?php eh(url('thread/create')) ?>'" value="Create" />
+<input type="button" onclick="location.href='<?php eh(url('thread/create_thread')) ?>'" value="Create" />

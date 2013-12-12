@@ -20,15 +20,47 @@ class ThreadController extends AppController{
     			$comment = new Comment;
     			$comment->username = Param::get('username');
     			$comment->body = Param::get('body');
-    			$thread->set_comment($comment);
+                try {
+                    $thread->insert_comment($comment);
+                } catch(ValidationException $e)
+                {
+                    $nextpage = 'write_comment_error';
+                }
     			break;
     		
     		default:
     			throw new NotFoundException("$nextpage");
     			break;
     	}
-
     	$this->set(get_defined_vars());
+        $this->render($nextpage);
+    }
+
+    public function create_thread(){
+        $nextpage = Param::get('nextpage');
+
+        switch ($nextpage) {
+
+            case '':
+            $nextpage = 'create_thread';
+            break;
+
+            case 'finish_create_thread':
+                $thread = new Thread;
+                $thread->title = Param::get('title');
+                try {
+                    $thread->insert_thread($thread);
+                } catch(ValidationException $e)
+                {
+                    $nextpage = 'create_thread_error';
+                }
+                break;
+            
+            default:
+                throw new NotFoundException("$nextpage");
+                break;
+        }
+        $this->set(get_defined_vars());
+        $this->render($nextpage);
     }
 }
-

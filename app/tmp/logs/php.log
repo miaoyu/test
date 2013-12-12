@@ -905,3 +905,463 @@ Stack trace:
 #4 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
 #5 {main}
   thrown in /Users/yu-m/Sites/board/app/app_layout_view.php on line 34
+[12-Dec-2013 12:30:31 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/yu-m/Sites/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/yu-m/Sites/board/dietcake/core/controller.php on line 36
+[12-Dec-2013 12:30:47 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/yu-m/Sites/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/yu-m/Sites/board/dietcake/core/controller.php on line 36
+[12-Dec-2013 12:32:30 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/yu-m/Sites/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/yu-m/Sites/board/dietcake/core/controller.php on line 36
+[12-Dec-2013 12:32:33 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/yu-m/Sites/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/yu-m/Sites/board/dietcake/core/controller.php on line 36
+[12-Dec-2013 12:33:05 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/yu-m/Sites/board/app/views/thread/create_thread.php is not found' in /Users/yu-m/Sites/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/yu-m/Sit...', Array)
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(83): AppLayoutView->render(NULL)
+#2 /Users/yu-m/Sites/board/dietcake/core/controller.php(48): Controller->render()
+#3 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#4 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#5 {main}
+  thrown in /Users/yu-m/Sites/board/app/app_layout_view.php on line 34
+[12-Dec-2013 12:33:34 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/yu-m/Sites/board/app/views/thread/create_thread.php is not found' in /Users/yu-m/Sites/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/yu-m/Sit...', Array)
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(83): AppLayoutView->render(NULL)
+#2 /Users/yu-m/Sites/board/dietcake/core/controller.php(48): Controller->render()
+#3 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#4 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#5 {main}
+  thrown in /Users/yu-m/Sites/board/app/app_layout_view.php on line 34
+[12-Dec-2013 15:36:17 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be an array, boolean given, called in /Users/yu-m/Sites/board/app/models/thread.php on line 17 and defined in /Users/yu-m/Sites/board/dietcake/core/model.php on line 8
+[12-Dec-2013 15:36:17 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 15:36:17 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 15:36:17 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 15:36:17 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 15:36:17 Asia/Manila] PHP   4. ThreadController->create_thread() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 15:36:17 Asia/Manila] PHP   5. Thread::get_thread() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:34
+[12-Dec-2013 15:36:17 Asia/Manila] PHP   6. Model->__construct() /Users/yu-m/Sites/board/app/models/thread.php:17
+[12-Dec-2013 16:20:29 Asia/Manila] PHP Fatal error:  Class 'Comment' not found in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 20
+[12-Dec-2013 16:20:29 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:20:29 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:20:29 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:20:29 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:20:29 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   4. Controller->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:48
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   5. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   6. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   7. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   4. Controller->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:48
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   5. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   6. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   7. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Warning:  Division by zero in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   4. Controller->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:48
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   5. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   6. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   7. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:22:21 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   4. Controller->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:48
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   5. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   6. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:22:21 Asia/Manila] PHP   7. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:27:32 Asia/Manila] PHP Fatal error:  Uncaught exception 'ValidationException' with message 'invalid comment' in /Users/yu-m/Sites/board/app/models/thread.php:37
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(23): Thread->set_comment(Object(Comment))
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->write_comment()
+#2 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#3 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#4 {main}
+  thrown in /Users/yu-m/Sites/board/app/models/thread.php on line 37
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Notice:  Undefined variable: page in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 31
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Warning:  Division by zero in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/yu-m/Sites/board/app/views/thread/write_comment.php on line 15
+[12-Dec-2013 16:31:07 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:31:07 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:33:11 Asia/Manila] PHP Notice:  Undefined variable: page in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 31
+[12-Dec-2013 16:33:11 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:33:11 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:33:11 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:33:11 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:33:11 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:33:11 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/yu-m/Sites/board/app/views/thread/write_comment.php is not found' in /Users/yu-m/Sites/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/yu-m/Sit...', Array)
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(83): AppLayoutView->render(NULL)
+#2 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(31): Controller->render(NULL)
+#3 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->write_comment()
+#4 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/yu-m/Sites/board/app/app_layout_view.php on line 34
+[12-Dec-2013 16:33:29 Asia/Manila] PHP Notice:  Undefined variable: page in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 31
+[12-Dec-2013 16:33:29 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:33:29 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:33:29 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:33:29 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:33:29 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:33:29 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/yu-m/Sites/board/app/views/thread/write_comment.php is not found' in /Users/yu-m/Sites/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/yu-m/Sit...', Array)
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(83): AppLayoutView->render(NULL)
+#2 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(31): Controller->render(NULL)
+#3 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->write_comment()
+#4 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/yu-m/Sites/board/app/app_layout_view.php on line 34
+[12-Dec-2013 16:35:30 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php is not found' in /Users/yu-m/Sites/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/yu-m/Sit...', Array)
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(83): AppLayoutView->render('finish_write_co...')
+#2 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(31): Controller->render('finish_write_co...')
+#3 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->write_comment()
+#4 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/yu-m/Sites/board/app/app_layout_view.php on line 34
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Warning:  Division by zero in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:03 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:03 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Warning:  Division by zero in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 16:49:30 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 16:49:30 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 17:04:34 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 17:04:34 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:04:34 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:04:34 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:04:34 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:04:34 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:04:34 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 17:04:34 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:04:34 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:04:44 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 17:04:44 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:04:44 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:04:44 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:04:44 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:04:44 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:04:44 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 17:04:44 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:04:44 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:05:17 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 17:05:17 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:05:17 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:05:17 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:05:17 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:05:17 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:05:17 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 17:05:17 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:05:17 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:05:25 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 17:05:25 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:05:25 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:05:25 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:05:25 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:05:25 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:05:25 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 17:05:25 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:05:25 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:08:08 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/finish_write_comment.php on line 15
+[12-Dec-2013 17:08:08 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:08:08 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:08:08 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:08:08 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:08:08 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:08:08 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:31
+[12-Dec-2013 17:08:08 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:08:08 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:26:08 Asia/Manila] PHP Fatal error:  Uncaught exception 'ValidationException' with message 'invalid comment' in /Users/yu-m/Sites/board/app/models/thread.php:37
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(23): Thread->set_comment(Object(Comment))
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->write_comment()
+#2 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#3 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#4 {main}
+  thrown in /Users/yu-m/Sites/board/app/models/thread.php on line 37
+[12-Dec-2013 17:26:38 Asia/Manila] PHP Fatal error:  Uncaught exception 'ValidationException' with message 'invalid comment' in /Users/yu-m/Sites/board/app/models/thread.php:37
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(23): Thread->set_comment(Object(Comment))
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->write_comment()
+#2 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#3 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#4 {main}
+  thrown in /Users/yu-m/Sites/board/app/models/thread.php on line 37
+[12-Dec-2013 17:29:08 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 33
+[12-Dec-2013 17:29:08 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:29:08 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:29:08 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:29:08 Asia/Manila] PHP   3. Dispatcher::getController() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:8
+[12-Dec-2013 17:29:08 Asia/Manila] PHP   4. class_exists() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:41
+[12-Dec-2013 17:29:08 Asia/Manila] PHP   5. {closure}() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:0
+[12-Dec-2013 17:29:17 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 33
+[12-Dec-2013 17:29:17 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:29:17 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:29:17 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:29:17 Asia/Manila] PHP   3. Dispatcher::getController() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:8
+[12-Dec-2013 17:29:17 Asia/Manila] PHP   4. class_exists() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:41
+[12-Dec-2013 17:29:17 Asia/Manila] PHP   5. {closure}() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:0
+[12-Dec-2013 17:29:21 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 33
+[12-Dec-2013 17:29:21 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:29:21 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:29:21 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:29:21 Asia/Manila] PHP   3. Dispatcher::getController() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:8
+[12-Dec-2013 17:29:21 Asia/Manila] PHP   4. class_exists() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:41
+[12-Dec-2013 17:29:21 Asia/Manila] PHP   5. {closure}() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:0
+[12-Dec-2013 17:29:25 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 33
+[12-Dec-2013 17:29:25 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:29:25 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:29:25 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:29:25 Asia/Manila] PHP   3. Dispatcher::getController() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:8
+[12-Dec-2013 17:29:25 Asia/Manila] PHP   4. class_exists() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:41
+[12-Dec-2013 17:29:25 Asia/Manila] PHP   5. {closure}() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:0
+[12-Dec-2013 17:30:13 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/yu-m/Sites/board/app/views/thread/write_comment.php is not found' in /Users/yu-m/Sites/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/yu-m/Sites/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/yu-m/Sit...', Array)
+#1 /Users/yu-m/Sites/board/dietcake/core/controller.php(83): AppLayoutView->render('write_comment')
+#2 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(36): Controller->render('write_comment')
+#3 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->write_comment()
+#4 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/yu-m/Sites/board/app/app_layout_view.php on line 34
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Notice:  Use of undefined constant ’username’ - assumed '’username’' in /Users/yu-m/Sites/board/app/views/thread/write_comment_error.php on line 5
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:36
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Notice:  Use of undefined constant ’length’ - assumed '’length’' in /Users/yu-m/Sites/board/app/views/thread/write_comment_error.php on line 5
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:36
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Notice:  Use of undefined constant ’body’ - assumed '’body’' in /Users/yu-m/Sites/board/app/views/thread/write_comment_error.php on line 11
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:36
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Notice:  Use of undefined constant ’length’ - assumed '’length’' in /Users/yu-m/Sites/board/app/views/thread/write_comment_error.php on line 11
+[12-Dec-2013 17:34:34 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   4. ThreadController->write_comment() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:36
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 17:34:34 Asia/Manila] PHP   8. include() /Users/yu-m/Sites/board/app/app_layout_view.php:41
+[12-Dec-2013 18:11:46 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/yu-m/Sites/board/app/controllers/thread_controller.php on line 55
+[12-Dec-2013 18:11:46 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 18:11:46 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 18:11:46 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 18:11:46 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 18:11:46 Asia/Manila] PHP   4. ThreadController->create_thread() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 18:15:55 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null' in /Users/yu-m/Sites/board/vendor/SimpleDBI/SimpleDBIStatement.php:19
+Stack trace:
+#0 /Users/yu-m/Sites/board/vendor/SimpleDBI/SimpleDBIStatement.php(19): PDOStatement->execute(Array)
+#1 /Users/yu-m/Sites/board/vendor/SimpleDBI/SimpleDBI.php(223): SimpleDBIStatement->execute(Array)
+#2 /Users/yu-m/Sites/board/app/models/thread.php(55): SimpleDBI->query('INSERT INTO thr...', Array)
+#3 /Users/yu-m/Sites/board/app/controllers/thread_controller.php(50): Thread->insert_thread(Object(Thread))
+#4 /Users/yu-m/Sites/board/dietcake/core/controller.php(46): ThreadController->create_thread()
+#5 /Users/yu-m/Sites/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/yu-m/Sites/board/app/webroot/index.php(7): Dispatcher::invoke()
+#7 {main}
+  thrown in /Users/yu-m/Sites/board/vendor/SimpleDBI/SimpleDBIStatement.php on line 19
+[12-Dec-2013 18:26:16 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/create_thread_error.php on line 11
+[12-Dec-2013 18:26:16 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 18:26:16 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 18:26:16 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 18:26:16 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 18:26:16 Asia/Manila] PHP   4. ThreadController->create_thread() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 18:26:16 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:64
+[12-Dec-2013 18:26:16 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 18:26:16 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 18:27:23 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/create_thread_error.php on line 11
+[12-Dec-2013 18:27:23 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 18:27:23 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 18:27:23 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 18:27:23 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 18:27:23 Asia/Manila] PHP   4. ThreadController->create_thread() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 18:27:23 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:64
+[12-Dec-2013 18:27:23 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 18:27:23 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 18:27:32 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/create_thread_error.php on line 9
+[12-Dec-2013 18:27:32 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 18:27:32 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 18:27:32 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 18:27:32 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 18:27:32 Asia/Manila] PHP   4. ThreadController->create_thread() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 18:27:32 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:64
+[12-Dec-2013 18:27:32 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 18:27:32 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
+[12-Dec-2013 18:27:36 Asia/Manila] PHP Parse error:  parse error in /Users/yu-m/Sites/board/app/views/thread/create_thread_error.php on line 9
+[12-Dec-2013 18:27:36 Asia/Manila] PHP Stack trace:
+[12-Dec-2013 18:27:36 Asia/Manila] PHP   1. {main}() /Users/yu-m/Sites/board/app/webroot/index.php:0
+[12-Dec-2013 18:27:36 Asia/Manila] PHP   2. Dispatcher::invoke() /Users/yu-m/Sites/board/app/webroot/index.php:7
+[12-Dec-2013 18:27:36 Asia/Manila] PHP   3. Controller->dispatchAction() /Users/yu-m/Sites/board/dietcake/core/dispatcher.php:12
+[12-Dec-2013 18:27:36 Asia/Manila] PHP   4. ThreadController->create_thread() /Users/yu-m/Sites/board/dietcake/core/controller.php:46
+[12-Dec-2013 18:27:36 Asia/Manila] PHP   5. Controller->render() /Users/yu-m/Sites/board/app/controllers/thread_controller.php:64
+[12-Dec-2013 18:27:36 Asia/Manila] PHP   6. AppLayoutView->render() /Users/yu-m/Sites/board/dietcake/core/controller.php:83
+[12-Dec-2013 18:27:36 Asia/Manila] PHP   7. AppLayoutView::extractAndMerge() /Users/yu-m/Sites/board/app/app_layout_view.php:23
