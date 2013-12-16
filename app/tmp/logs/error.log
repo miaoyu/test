@@ -4,3 +4,8 @@
 [Thu Dec 12 15:36:14 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app/webroot/favicon.ico
 [Thu Dec 12 17:05:21 2013] [error] [client 127.0.0.1] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4436532344 bytes) in Unknown on line 0, referer: http://testboard.dev/
 [Thu Dec 12 18:28:41 2013] [error] [client 127.0.0.1] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4436316728 bytes) in Unknown on line 0, referer: http://testboard.dev/
+[Thu Dec 12 20:37:43 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app
+[Thu Dec 12 20:37:49 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app
+[Thu Dec 12 20:38:08 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app
+[Thu Dec 12 20:38:24 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app
+[Thu Dec 12 20:38:29 2013] [error] [client 127.0.0.1] File does not exist: /Users/yu-m/Sites/board/app

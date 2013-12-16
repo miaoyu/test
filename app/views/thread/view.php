@@ -4,16 +4,16 @@
     <?php foreach($comments as $k=>$v): ?>
         <tr>
             <th>
-            	<?php eh($k + 1) ?>
+                <?php eh($k + 1) ?>
             </th>
             <th>
-             	<?php eh($v->username) ?>
+                <?php eh($v->username) ?>
             </th>
             <th>
-   				<?php eh($v->body) ?>
+                <?php eh($v->body) ?>
             </th>    
             <th>
-            	<?php eh($v->created) ?>
+                <?php eh($v->created) ?>
             </th>
     <?php endforeach ?>
 </table>
