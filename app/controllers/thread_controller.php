@@ -37,13 +37,9 @@ class ThreadController extends AppController{
     }
 
     public function create_thread(){
-        $nextpage = Param::get('nextpage');
+        $nextpage = Param::get('nextpage','create_thread');
 
         switch ($nextpage) {
-
-            case '':
-            $nextpage = 'create_thread';
-            break;
 
             case 'finish_create_thread':
                 $thread = new Thread;

@@ -9,6 +9,10 @@ class Thread extends AppModel{
         $threads = array();
         $db = DB::conn();
         $rows = $db->rows('SELECT * FROM thread');
+        if (!$rows) {
+            throw new RecordNotFoundException;
+        }
+
         foreach ($rows as $row){
             $threads[] = new Thread($row);
         }
@@ -25,6 +29,10 @@ class Thread extends AppModel{
         $comments = array();
         $db = DB::conn();
         $rows = $db->rows('SELECT * FROM comment WHERE thread_id = ? ORDER BY created ASC', array($this->id));
+        if (!$rows) {
+            throw new RecordNotFoundException;
+        }
+
         foreach ($rows as $row){
             $comments[] = new Thread($row);
         }
@@ -38,9 +46,13 @@ class Thread extends AppModel{
         
         $db = DB::conn();
         $db->begin();
-        $db->query('INSERT INTO comment SET thread_id = ?, username = ?, body = ?, created=NOW()',
+        try {
+            $db->query('INSERT INTO comment SET thread_id = ?, username = ?, body = ?, created=NOW()',
             array($this->id, $comment->username, $comment->body));
-        $db->commit();
+            $db->commit();
+        }catch (DBException $ex){
+            $db->rollback();
+        }
     }
 
     public function insert_thread(){
@@ -50,8 +62,12 @@ class Thread extends AppModel{
         
         $db = DB::conn();
         $db->begin();
-        $db->query('INSERT INTO thread SET title = ?, created = NOW()', array($this->title));
-        $this->id = $db->lastInsertId();
-        $db->commit();
+        try {
+            $db->query('INSERT INTO thread SET title = ?, created = NOW()', array($this->title));
+            $this->id = $db->lastInsertId();
+            $db->commit();
+        }catch (DBException $ex){
+            $db->rollback();
+        }
     }
 }
